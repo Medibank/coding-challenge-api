@@ -23,6 +23,7 @@ You need to:
 - Use the hackers news api to randomly pick an article about `medicine` and use it for the returned JSON `title`, `url`, `author` fields.
 - Use the unsplash api to randomly pick an image about `medicine` and use it for the returned JSON `imageUrl` field.
 - For the duration of 1 hour return the same JSON content.
+- Apply consideration if the API services to retrieve news articles and images has crashed or cannot respond.
 - We want this service to be running in a docker container. (see the `docker-compose.yml` file)
 
 ## APIs
